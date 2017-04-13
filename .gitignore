@@ -1,0 +1,14 @@
+.gradle
+/local.properties
+.DS_Store
+/build
+.idea
+*.iml
+/captures
+.externalNativeBuild
+/gradle
+client/iGottaGoGo/build
+client/iGottaGoGo/app/build/
+client/iGottaGoGo/gradle/
+client/iGottaGoGo/local.properties
+client/iGottaGoGo/gradlew.bat

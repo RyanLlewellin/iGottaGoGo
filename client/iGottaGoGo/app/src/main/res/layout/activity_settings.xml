@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.underthejava.igottagogo.SettingsActivity">
+
+    <TextView
+        android:id="@+id/tvRadius"
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:text="Radius:"
+        android:textSize="22sp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="80dp"/>
+
+    <TextView
+        android:id="@+id/tvRadiusNumber"
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:layout_toRightOf="@+id/tvRadius"
+        android:text=" Km"
+        android:textSize="22sp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="227dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/tvRadius"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:max="30" />
+
+</RelativeLayout>
